@@ -1,0 +1,72 @@
+
+   Summary motif results
+   =====================
+mfinder Version 1.20
+
+MOTIF FINDER RESULTS:
+
+	Network name: ../data/pdc_20_open_PO.txt
+	Network type: Directed
+	Num of Nodes: 63 Num of Edges: 114
+	Num of Nodes with edges: 43
+	Maximal out degree (out-hub) : 11
+	Maximal in degree (in-hub) : 28
+	Roots num: 23 Leaves num: 6
+	Single Edges num: 80 Mutual Edges num: 17
+
+	Motif size searched  3
+	Total number of 3-node subgraphs : 1089
+	Number of random networks generated : 1000
+	Random networks generation method: Switches
+	Num of Switches range: 100.0-200.0, Success switches Ratio:0.096+-0.01
+
+The following motifs were found:
+
+Criteria taken : Pval < 0.010
+                 Mfactor > 1.10
+                 Uniqueness >= 4
+
+MOTIF	NREAL	NRAND		NREAL	NREAL	UNIQ	CREAL
+ID		STATS		ZSCORE	PVAL	VAL	[MILI]	
+
+
+
+Full list of subgraphs size 3 ids:
+
+	( Total num of different subgraphs size 3 is : 13 )
+
+MOTIF	NREAL	NRAND		NREAL	NREAL	CREAL	UNIQ
+ID		STATS		ZSCORE	PVAL	[MILI]	
+6	54	47.9+-2.0	2.97	0.007	49.59	3
+
+12	232	220.6+-4.0	2.85	0.001	213.04	4
+
+14	67	62.4+-3.3	1.41	0.126	61.52	4
+
+36	408	403.0+-2.9	1.74	0.054	374.66	5
+
+38	16	21.3+-3.1	-1.73	0.978	14.69	1
+
+46	10	9.7+-2.0	0.17	0.533	9.18	1
+
+74	234	227.2+-5.0	1.35	0.113	214.88	4
+
+78	19	19.4+-1.9	-0.20	0.676	17.45	3
+
+98	0	0.6+-0.8	-0.83	1.000	0.00	0
+
+102	4	8.1+-1.9	-2.15	0.996	3.67	2
+
+108	25	25.7+-2.8	-0.27	0.674	22.96	1
+
+110	16	17.1+-2.3	-0.48	0.746	14.69	1
+
+238	4	3.5+-0.8	0.58	0.484	3.67	2
+
+
+
+ (Application total runtime was:   15.0 seconds.)
+
+ (Real network processing runtime was:    0.0 seconds.)
+
+ (Single Random network processing runtime was:    0.0 seconds.)
